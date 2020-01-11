@@ -1,0 +1,17 @@
+header {
+    background-image: url('../assets/img/pope-francis.jpg');
+    background-size: cover;
+    min-height: 600px;
+    nav {
+        .header__title {
+            display: inline-block;
+        }
+        .header__nav-container {
+            .header__nav-items {
+                .header__nav-item{
+                    display: inline-block;
+                }
+            }
+        }
+    }
+}
