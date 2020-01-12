@@ -1,5 +1,7 @@
 import React from 'react';
 import Header from './components/Header';
+import Main from './components/Main';
+import Footer from './components/Footer';
 import './App.scss';
 
 class App extends React.Component {
@@ -7,6 +9,8 @@ class App extends React.Component {
     return (
       <div className="main-container">
         <Header/>
+        <Main/>
+        <Footer/>
       </div>
     )
   }
