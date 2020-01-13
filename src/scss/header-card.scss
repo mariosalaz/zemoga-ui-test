@@ -46,7 +46,9 @@
                 }
                 &:hover{
                     cursor: pointer;
+                    background-color: rgb(75, 122, 120);
                 }
+ 
             }
             .thumbs-down-container {
                 padding: 20px;
@@ -56,10 +58,26 @@
                     font-size: 2rem;
                 }
                 &:hover{
+                    background-color: rgb(145, 103, 30);
                     cursor: pointer;
                 }
             }
         }
     }
-    
+}
+
+@media (max-width:575px){
+    .header-card {
+        .header-card__main-content {
+            width: 80%;
+            .header-card__thumbs-container {
+                .thumbs-up-container {
+                    width: 50%;
+                }
+                .thumbs-down-container {
+                    width: 50%;
+                }
+            }
+        }
+    }
 }

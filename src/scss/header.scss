@@ -1,6 +1,7 @@
 header {
     background-image: url('../assets/img/pope-francis.jpg');
-    background-size: cover;
+    background-size: 100%;
+    background-repeat: no-repeat;
     color: #fff;
     
     nav {
@@ -61,5 +62,39 @@ header {
             }
         }   
        }
+    }
+}
+@media (max-width:550px){
+    header {
+
+    }
+}
+@media (max-width:767px){
+    header {
+        nav {
+            display: block;
+            .header__title {
+                display: block;
+                text-align: center;
+            }
+            .header__nav-container{
+                display: block;
+                .header__nav-items {
+                    text-align: center;
+                    .header__nav-item {
+                        padding: 5px;
+                        margin: 0;
+                    }
+                }
+            }
+        }
+        .header__remaining-days {
+            .closing-text {
+                width: 50%;
+            }
+            .remaining-days-text {
+                width: 50%;
+            }
+        }
     }
 }

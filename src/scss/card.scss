@@ -1,0 +1,71 @@
+.card {
+    background-image: url('../assets/img/kanye-west.jpg');
+    background-size: cover;
+    margin-bottom: 30px;
+    min-height: 300px;
+    justify-content: flex-end;
+    .card-info-container{
+        text-align: left;
+        padding: 30px;
+        .card__person-info {
+            color: #fff;
+            h2 {
+                margin-bottom: 5px;
+                font-size: 1.8rem;
+            }
+           .time-active {
+               font-size: 0.6rem;
+               span {
+                   font-size: 0.6rem;
+                   font-weight: bold;
+               }
+           }
+           .card__person-description {
+               margin: 10px 0;
+           }
+        }
+        .vote-menu {
+            display: flex;
+            align-items: center;
+            .thumbs-menu {
+                .thumbs-up {
+                    display: inline-block;
+                    margin-right: 10px;
+                    padding: 5px;
+                    background-color: rgba(30, 187, 180, 1);
+                    text-align: center;
+                    span {
+                        color: #fff;
+                        font-size: 1rem;
+                    }
+                    &:hover{
+                        cursor: pointer;
+                        background-color: rgb(75, 122, 120);
+                    }
+                    .selected {
+                        border: 2px solid #fff;
+                    }
+
+                }
+                .thumbs-down {
+                    display: inline-block;
+                    margin-right: 10px;
+                    padding: 5px;
+                    background-color: rgba(255, 173, 28, 1);
+                    text-align: center;
+                    span {
+                        color: #fff;
+                        font-size: 1rem;
+                    }
+                    &:hover{
+                        cursor: pointer;
+                        background-color: rgb(145, 103, 30);
+                    }
+                    .selected {
+                        border: 2px solid #fff;
+                    }
+                }
+            }
+        }
+    }
+}

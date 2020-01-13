@@ -3,12 +3,17 @@ main {
     margin: 0 auto;
     margin-bottom: 30px;
     .info-content {
+        position: relative;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
         margin: 30px 0;
         padding: 10px;
         background-color:#EBEBEB;
         .info-content__left {
-            padding-right: 0;
+            width: 20%;
             text-align: center;
+            margin-right: 10px;
             p{
                 &:last-child {
                     font-size: 1.7rem;
@@ -17,7 +22,7 @@ main {
             }
         }
         .info-content__right {
-            padding-left: 0;
+            width: 70%;
         }
         .close-info-content {
             display: flex;
@@ -34,18 +39,61 @@ main {
                 font-size: 2rem;
             }
         }
+        .votes-container {
+            text-align: center;
+            .single-card {
+                display: inline-block;
+            }
+        }
     }
     .add-people {
         background-image: url('../assets/img/people.jpg');
         background-size: cover;
-        .row {
-            padding: 10px;
-            background-color: rgba(248, 240, 240, 0.6);
-            p {
-             display: flex;
-             align-items: center;
-             font-size: 1.1rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px;
+        background-color: rgba(248, 240, 240, 0.6);
+        p {
+            display: flex;
+            align-items: center;
+            font-size: 1.1rem;
+        }      
+        .button-container {
+            button {
+                border: 2px solid #000;
+                color: #000;
+                &:hover{
+                    color: #fff;
+                }
             }
         }
+    }
+}
+
+@media (max-width:767px){
+    main {
+        .info-content {
+            text-align: center;
+            display: block;
+            .info-content__left {
+                width: 100%;
+                margin-bottom: 10px;
+            }
+            .info-content__right {
+                width: 100%;
+            }
+            .close-info-content {
+                position: absolute;
+                top: 10px;
+                right: 10px;
+            }
+        }
+        .votes-summary {
+            .votes-summary__title {
+                text-align: center;
+            }
+        }
+        
     }
 }
