@@ -13,9 +13,9 @@ const Header = props => {
                 </div>
                 <div className="header__nav-container">
                     <ul className="header__nav-items">
-                        <li className="header__nav-item"><a href="about:blank" target="_blank">past rials</a></li>
-                        <li className="header__nav-item"><a href="about:blank" target="_blank">how it works</a></li>
-                        <li className="header__nav-item"><a href="about:blank" target="_blank">log in/sign up</a></li>
+                        <li className="header__nav-item"><a href="about:blank" >past rials</a></li>
+                        <li className="header__nav-item"><a href="about:blank" >how it works</a></li>
+                        <li className="header__nav-item"><a href="about:blank" >log in/sign up</a></li>
                         <span className="header__search-icon">
                             <FontAwesomeIcon icon ={faSearch}/>
                         </span>

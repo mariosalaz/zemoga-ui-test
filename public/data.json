@@ -1,0 +1,42 @@
+[
+    {
+        "id": 1,
+        "name": "Kante West",
+        "time": "1 month ago",
+        "area": "Entertainment",
+        "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
+        "likes": 0,
+        "dislikes": 0,
+        "imgUrl": "kanye-west.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Mark Zuckerberg",
+        "time": "1 month ago",
+        "area": "Business",
+        "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
+        "likes": 0,
+        "dislikes": 0,
+        "imgUrl": "mark-zuckerberg.jpg"
+    },
+    {
+        "id": 1,
+        "name": "Cristina Fernández de Kirchner",
+        "time": "1 month ago",
+        "area": "Politics",
+        "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
+        "likes": 0,
+        "noLikes": 0,
+        "imgUrl": "cristina-fernandez-de-kirchner.jpg"
+    },
+    {
+        "id": 1,
+        "name": "Malala Yousafzai",
+        "time": "1 month ago",
+        "area": "Entertainment",
+        "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
+        "likes": 0,
+        "noLikes": 0,
+        "imgUrl": "malala-yousafzai.jpg"
+    }
+]

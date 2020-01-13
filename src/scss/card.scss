@@ -1,9 +1,9 @@
-.card {
+.card-main-container {
+    display: flex;
     background-image: url('../assets/img/kanye-west.jpg');
     background-size: cover;
     margin-bottom: 30px;
     min-height: 300px;
-    justify-content: flex-end;
     .card-info-container{
         text-align: left;
         padding: 30px;
@@ -42,10 +42,10 @@
                         cursor: pointer;
                         background-color: rgb(75, 122, 120);
                     }
-                    .selected {
-                        border: 2px solid #fff;
-                    }
-
+                    
+                }
+                .selected {
+                    border: 2px solid #fff;
                 }
                 .thumbs-down {
                     display: inline-block;

@@ -1,12 +1,10 @@
 import React from 'react';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faTimes} from '@fortawesome/free-solid-svg-icons';
-import Button from './Button';
 import Card from './Card';
 
 
-const count= [1 ,2, 3, 4];
-const Main = () => {
+const Main = ({data, onThumbClick, onVote, voteAgain}) => {
     return (
         <main>
             <div className="info-content">
@@ -28,10 +26,10 @@ const Main = () => {
                     <h3>Votes</h3>
                 </div>
                 <div className="votes-container">
-                    {count.map(item => {
+                    {data.map((item, index) => {
                         return (
                             <div className="col-sm-6 single-card">
-                                <Card/>
+                                <Card data={item} onThumbClick={onThumbClick} index={index} onVote={onVote} voteAgain={voteAgain} />
                             </div>
                         )
                     })}
@@ -42,7 +40,9 @@ const Main = () => {
                         Is there anyone else you would want us to add?
                     </p>
                     <div className="submit-button col-sm-3 text-center">
-                        <Button text={"Submit a Name"}/>
+                        <div className="button-container">
+                            <button type="button">Vote again</button>
+                        </div>
                     </div>
             </div>
         </main>

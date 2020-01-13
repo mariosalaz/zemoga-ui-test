@@ -7,16 +7,16 @@ const Footer = () => {
         <footer>
             <nav className="footer-nav">
                 <ul className="footer-nav__items">
-                    <li className="footer-nav__item"><a href="" target="_blank">Terms and Conditions</a></li>
-                    <li className="footer-nav__item"><a href="" target="_blank">Privacy Policy</a></li>
-                    <li className="footer-nav__item"><a href="" target="_blank">Contact Us</a></li>
+                    <li className="footer-nav__item"><a href="www.google.com" target="_blank">Terms and Conditions</a></li>
+                    <li className="footer-nav__item"><a href="www.google.com" target="_blank">Privacy Policy</a></li>
+                    <li className="footer-nav__item"><a href="www.google.com" target="_blank">Contact Us</a></li>
                 </ul>
             </nav>
             <div className="social-media">
                 <ul className="social-media-items">
-                <li className="social-media-item"><a href="" target="_blank">Follow Us</a></li>
-                <li className="social-media-item"><a href=""><span><FontAwesomeIcon icon ={faFacebookSquare}/></span></a></li>
-                <li className="social-media-item"><a href=""><span><FontAwesomeIcon icon ={faTwitter}/></span></a></li>
+                <li className="social-media-item"><a href="www.google.com" target="_blank">Follow Us</a></li>
+                <li className="social-media-item"><a href="www.google.com"><span><FontAwesomeIcon icon ={faFacebookSquare}/></span></a></li>
+                <li className="social-media-item"><a href="www.google.com"><span><FontAwesomeIcon icon ={faTwitter}/></span></a></li>
                 </ul>
             </div>
         </footer>
