@@ -1,10 +1,9 @@
 .card-main-container {
-    display: flex;
+    display: grid;
     flex-direction: column;
     background-size: cover;
     margin-bottom: 30px;
     min-height: 300px;
-    justify-content: flex-end;
 
     .card-info-container{
         text-align: left;

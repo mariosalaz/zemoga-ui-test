@@ -1,4 +1,6 @@
 .progress-bar-main {
+    display: flex;
+    align-items: flex-end;
     .progress-bar__like {
         display: inline-block;
         text-align: left;
