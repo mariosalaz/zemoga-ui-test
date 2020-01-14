@@ -8,10 +8,10 @@ Install it and run:
 
 ```bash
 npm install
-npm run dev
+npm start
 # or
 yarn
-yarn dev
+yarn start
 ```
 Open your browser and put the url: [http://localhost:3000](http://localhost:3000)
 
