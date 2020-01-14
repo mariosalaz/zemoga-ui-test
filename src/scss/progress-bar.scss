@@ -1,0 +1,32 @@
+.progress-bar-main {
+    .progress-bar__like {
+        display: inline-block;
+        text-align: left;
+        padding: 0;
+        background-color: #1ebbb4;
+        opacity: 0.9;
+    }
+    .progress-bar__dislike {
+        padding: 0;
+        display: inline-block;
+        text-align: right;
+        background-color: #ffad1c;
+        opacity: 0.9;
+    }
+    .percentage-container {
+        padding: 10px;
+        color: #fff;
+        span{
+            margin: 0 5px;
+            display: inline-block;
+                font-size: 1.5rem;
+                vertical-align: middle;
+            }
+
+            p {
+                font-size: 1.5rem;
+                display: inline-block;
+                vertical-align: middle;
+            }
+     }
+}

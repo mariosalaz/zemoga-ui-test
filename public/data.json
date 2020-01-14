@@ -26,7 +26,7 @@
         "area": "Politics",
         "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
         "likes": 0,
-        "noLikes": 0,
+        "dislikes": 0,
         "imgUrl": "cristina-fernandez-de-kirchner.jpg"
     },
     {
@@ -36,7 +36,7 @@
         "area": "Entertainment",
         "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
         "likes": 0,
-        "noLikes": 0,
+        "dislikes": 0,
         "imgUrl": "malala-yousafzai.jpg"
     }
 ]

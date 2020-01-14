@@ -28,8 +28,8 @@ const Main = ({data, onThumbClick, onVote, voteAgain}) => {
                 <div className="votes-container">
                     {data.map((item, index) => {
                         return (
-                            <div className="col-sm-6 single-card">
-                                <Card data={item} onThumbClick={onThumbClick} index={index} onVote={onVote} voteAgain={voteAgain} />
+                            <div key={index} className="col-sm-6 single-card">
+                                <Card  data={item} onThumbClick={onThumbClick} index={index} onVote={onVote} voteAgain={voteAgain} />
                             </div>
                         )
                     })}
@@ -41,7 +41,7 @@ const Main = ({data, onThumbClick, onVote, voteAgain}) => {
                     </p>
                     <div className="submit-button col-sm-3 text-center">
                         <div className="button-container">
-                            <button type="button">Vote again</button>
+                            <button type="button">Submit a Name</button>
                         </div>
                     </div>
             </div>

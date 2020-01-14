@@ -3,7 +3,6 @@ main {
     margin: 0 auto;
     margin-bottom: 30px;
     .info-content {
-        position: relative;
         display: flex;
         justify-content: flex-start;
         align-items: center;
@@ -47,7 +46,7 @@ main {
         }
     }
     .add-people {
-        background-image: url('../assets/img/people.jpg');
+        background-image: url('/img/people.jpg');
         background-size: cover;
         display: flex;
         justify-content: space-between;

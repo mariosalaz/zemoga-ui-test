@@ -39,8 +39,9 @@
             margin-top: 20px;
             .thumbs-up-container{
                 padding: 20px;
-                background-color: rgba(30, 187, 180, 1);
+                background-color: #1ebbb4;
                 text-align: center;
+                opacity: 0.9;
                 span {
                     font-size: 2rem;
                 }
@@ -52,8 +53,9 @@
             }
             .thumbs-down-container {
                 padding: 20px;
-                background-color: rgba(255, 173, 28, 1);
+                background-color: #ffad1c;
                 text-align: center;
+                opacity: 0.9;
                 span {
                     font-size: 2rem;
                 }

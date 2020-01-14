@@ -1,9 +1,11 @@
 .card-main-container {
     display: flex;
-    background-image: url('../assets/img/kanye-west.jpg');
+    flex-direction: column;
     background-size: cover;
     margin-bottom: 30px;
     min-height: 300px;
+    justify-content: flex-end;
+
     .card-info-container{
         text-align: left;
         padding: 30px;
@@ -28,6 +30,9 @@
             display: flex;
             align-items: center;
             .thumbs-menu {
+                display: flex;
+                flex-direction: row;
+                align-items: center;
                 .thumbs-up {
                     display: inline-block;
                     margin-right: 10px;

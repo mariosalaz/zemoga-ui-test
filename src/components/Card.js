@@ -1,6 +1,7 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faThumbsUp, faThumbsDown } from "@fortawesome/free-solid-svg-icons";
+import ProgressBar from './ProgressBar';
 
 
 const Card = ({ data, onThumbClick, index, onVote, voteAgain }) => {
@@ -41,6 +42,7 @@ const Card = ({ data, onThumbClick, index, onVote, voteAgain }) => {
                 )}
             </div>
         </div>
+        <ProgressBar data={data}/>
     </div>
   );
 };
